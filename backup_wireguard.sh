@@ -8,7 +8,7 @@
 
 
 # Definiere Backup-Ordner
-BACKUP_DIR="/backup/wireguard-volume"
+BACKUP_DIR="/backup/wireguard-volume" # Sicherstellen, dass dieser Pfad auch existiert
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
 BACKUP_FILE="$BACKUP_DIR/wireguard_backup_$TIMESTAMP.tar.gz"
 
